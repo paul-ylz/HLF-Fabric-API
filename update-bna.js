@@ -18,10 +18,10 @@ const FileSystemCardStore = require('composer-common').FileSystemCardStore;
 const AdminConnection = require('composer-admin').AdminConnection;
 const BusinessNetworkDefinition = require('composer-common').BusinessNetworkDefinition;
 
-const cardNameForNetworkAdmin = "admin@airlinev7";
+const cardNameForNetworkAdmin = "admin@airlinev9";
 // This where I have the archive file for v2.0 of airlinev7
 // CHANGE THIS DIRECTORY FOR YOUR Model Project
-const bnaDirectory = "C:/Users/Rajeev/Documents/Course/Hyperledger-Course/workspace/HLF-Course-Domain-Model/airlinev7";
+const bnaDirectory = "/Users/paul/fabric/HLF-Course-Domain-Model/airlinev9";
 
 // 1. Create the AdminConnection instance
 const cardStore = new FileSystemCardStore();

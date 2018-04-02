@@ -20,8 +20,8 @@ const AdminConnection = require('composer-admin').AdminConnection;
 
 // Used as the card for all calls
 const   cardNameForPeerAdmin   = "PeerAdmin@hlfv1";
-const   cardNameForNetworkAdmin   = "admin@airlinev7";
-const   appToBePinged = "airlinev7";
+const   cardNameForNetworkAdmin   = "admin@airlinev9";
+const   appToBePinged = "airlinev9";
 
 // 1. Create instance of file system card store
 const cardStore = new FileSystemCardStore();
